@@ -1,0 +1,202 @@
+
+.navigation-wrapper {
+    width: 100%;
+    height: 10%;
+    padding: 20px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    font-family: 'Karla', sans-serif;
+}
+
+.navigation-wrapper > .left {
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navigation-wrapper > .left a {
+    color: #3E5465;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.navigation-wrapper > .left a.active {
+    color: #3E5465;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.navigation-wrapper > .right {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+    font-weight: 900;
+    color: #3E5465;
+}
+
+.navigation-wrapper > .right span {
+    padding-right: 5px;
+}
+
+/* Neuron */
+
+.navigation-wrapper-n {
+    width: 100%;
+    height: 10%;
+    padding: 20px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: #F8D2A0;
+
+    font-family: 'Karla', sans-serif;
+}
+
+.navigation-wrapper-n > .left {
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navigation-wrapper-n > .left a {
+    color: #EE931B;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.navigation-wrapper-n > .left a.active {
+    color: #EE931B;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.navigation-wrapper-n > .right {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+    font-weight: 900;
+    color: #EE931B;
+}
+
+.navigation-wrapper-n > .right span {
+    padding-right: 5px;
+}
+
+/* old brain */
+
+.navigation-wrapper-o {
+    width: 100%;
+    height: 10%;
+    padding: 20px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: #F6D979;
+
+    font-family: 'Karla', sans-serif;
+}
+
+.navigation-wrapper-o > .left {
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navigation-wrapper-o > .left a {
+    color: #D2A40F;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.navigation-wrapper-o > .left a.active {
+    color: #D2A40F;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.navigation-wrapper-o > .right {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+    font-weight: 900;
+    color: #D2A40F;
+}
+
+.navigation-wrapper-o > .right span {
+    padding-right: 5px;
+}
+
+
+/* divided brain */
+
+.navigation-wrapper-d {
+    width: 100%;
+    height: 10%;
+    padding: 20px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: #EDC9C0;
+
+    font-family: 'Karla', sans-serif;
+}
+
+.navigation-wrapper-d > .left {
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navigation-wrapper-d > .left a {
+    color: #C95B40;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.navigation-wrapper-d > .left a.active {
+    color: #C95B40;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.navigation-wrapper-d > .right {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+    font-weight: 900;
+    color: #C95B40;
+}
+
+.navigation-wrapper-d > .right span {
+    padding-right: 5px;
+}

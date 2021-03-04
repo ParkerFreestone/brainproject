@@ -1,0 +1,244 @@
+
+.diagram-wrapper-n {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+
+    background: #F8D2A0;
+}
+
+.diagram-wrapper-n > .header {
+
+    color: #EE931B;
+
+    padding-top: 50px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 900;
+    font-size: 4rem;
+}
+
+.diagram-wrapper-n > .image {
+    width: 50%;
+    height: 50%;
+    background: url("../images/neuron/diagram.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.words-n {
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #F8D2A0;
+}
+
+.words-n > .word {
+    width: 80%;
+    height: auto;
+    padding: 20px;
+    border-bottom: 1px solid #EE931B;
+    color: #EE931B;
+}
+
+.words-n > .word > .spelling {
+    width: 100%;
+    height: auto;
+    font-size: 1.5rem;
+    font-family: 'Karla', sans-serif;
+    color: rgb(133, 82, 17);
+    font-weight: 800;
+}
+
+.words-n > .word > .definition {
+    width: 100%;
+    height: auto;
+    font-size: 1.2rem;
+    font-family: 'Karla', sans-serif;
+    font-weight: 600;
+    padding-bottom: 15px;
+    color: #EE931B;
+}
+
+.words-n > .word > .example {
+    width: 100%;
+    height: auto;
+    font-size: 1.2rem;
+    font-family: 'Karla', sans-serif;
+    font-weight: 600;
+    color: #EE931B;
+}
+
+/* Old brain */
+
+.diagram-wrapper-o {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+
+    background: #F6D979;
+}
+
+.diagram-wrapper-o > .header {
+
+    color: #D2A40F;
+
+    padding-top: 50px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 900;
+    font-size: 4rem;
+}
+
+.diagram-wrapper-o > .image {
+    width: 50%;
+    height: 50%;
+    background: url("../images/oldbrain/diagram.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.words-o {
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #F6D979;
+}
+
+.words-o > .word {
+    width: 80%;
+    height: auto;
+    padding: 20px;
+    border-bottom: 1px solid #D2A40F;
+    color: #D2A40F;
+}
+
+.words-o > .word > .spelling {
+    width: 100%;
+    height: auto;
+    font-size: 1.5rem;
+    font-family: 'Karla', sans-serif;
+    color: #a7830d;
+    font-weight: 800;
+}
+
+.words-o > .word > .definition {
+    width: 100%;
+    height: auto;
+    font-size: 1.2rem;
+    font-family: 'Karla', sans-serif;
+    font-weight: 600;
+    padding-bottom: 15px;
+    color: #D2A40F;
+}
+
+.words-o > .word > .example {
+    width: 100%;
+    height: auto;
+    font-size: 1.2rem;
+    font-family: 'Karla', sans-serif;
+    font-weight: 600;
+    color: #D2A40F;
+}
+
+/* Divided brain */
+
+.diagram-wrapper-d {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+
+    background: #EDC9C0;
+}
+
+.diagram-wrapper-d > .header {
+
+    color: #C95B40;
+
+    padding-top: 50px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 900;
+    font-size: 4rem;
+}
+
+.diagram-wrapper-d > .image {
+    width: 50%;
+    height: 50%;
+    background: url("../images/dividedbrain/diagram.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.words-d {
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #EDC9C0;
+}
+
+.words-d > .word {
+    width: 80%;
+    height: auto;
+    padding: 20px;
+    border-bottom: 1px solid #C95B40;
+    color: #C95B40;
+}
+
+.words-d > .word > .spelling {
+    width: 100%;
+    height: auto;
+    font-size: 1.5rem;
+    font-family: 'Karla', sans-serif;
+    color: #C95B40;
+    font-weight: 800;
+}
+
+.words-d > .word > .definition {
+    width: 100%;
+    height: auto;
+    font-size: 1.2rem;
+    font-family: 'Karla', sans-serif;
+    font-weight: 600;
+    padding-bottom: 15px;
+    color: #C95B40;
+}
+
+.words-d > .word > .example {
+    width: 100%;
+    height: auto;
+    font-size: 1.2rem;
+    font-family: 'Karla', sans-serif;
+    font-weight: 600;
+    color: #C95B40;
+}

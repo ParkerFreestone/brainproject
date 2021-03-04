@@ -1,0 +1,123 @@
+
+/* OLD BRAIN */
+
+.old-brain-wrapper {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #F6D979;
+    color: #D2A40F;
+
+    font-family: 'Karla', sans-serif;
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+.old-brain-wrapper > .left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.old-brain-wrapper > .right {
+    width: 50%;
+    height: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.old-brain-wrapper > .right a {
+    color: #D2A40F;
+    text-decoration: none;
+    padding: 10px;
+    border: 5px solid #D2A40F;
+}
+
+/* NEW BRAIN */
+
+.new-brain-wrapper {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #EDC9C0;
+    color: #C95B40;
+
+    font-family: 'Karla', sans-serif;
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+.new-brain-wrapper > .left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.new-brain-wrapper > .right {
+    width: 50%;
+    height: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.new-brain-wrapper > .right a {
+    color: #C95B40;
+    text-decoration: none;
+    padding: 10px;
+    border: 5px solid #C95B40;
+}
+
+/* NEURON */
+
+.neuron-wrapper {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #F8D2A0;
+    color: #EE931B;
+
+    font-family: 'Karla', sans-serif;
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+.neuron-wrapper > .left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.neuron-wrapper > .right {
+    width: 50%;
+    height: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.neuron-wrapper > .right a {
+    color: #EE931B;
+    text-decoration: none;
+    padding: 10px;
+    border: 5px solid #EE931B;
+}
